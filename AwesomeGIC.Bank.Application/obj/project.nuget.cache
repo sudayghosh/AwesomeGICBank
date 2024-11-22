@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mPuytib8J3E=",
+  "dgSpecHash": "U4QaOgUCKDA=",
   "success": true,
-  "projectFilePath": "E:\\Practice\\2022\\AwesomeGIC.Bank\\AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj",
+  "projectFilePath": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Suday\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Suday\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Suday\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Suday\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\Suday\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
     "C:\\Users\\Suday\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",

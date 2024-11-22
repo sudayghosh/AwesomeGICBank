@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Practice\\2022\\AwesomeGIC.Bank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj": {}
+    "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj": {}
   },
   "projects": {
-    "E:\\Practice\\2022\\AwesomeGIC.Bank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj": {
+    "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice\\2022\\AwesomeGIC.Bank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj",
+        "projectUniqueName": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj",
         "projectName": "AwesomeGIC.Bank.Console",
-        "projectPath": "E:\\Practice\\2022\\AwesomeGIC.Bank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj",
+        "projectPath": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Console\\AwesomeGIC.Bank.Console.csproj",
         "packagesPath": "C:\\Users\\Suday\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice\\2022\\AwesomeGIC.Bank\\AwesomeGIC.Bank.Console\\obj\\",
+        "outputPath": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

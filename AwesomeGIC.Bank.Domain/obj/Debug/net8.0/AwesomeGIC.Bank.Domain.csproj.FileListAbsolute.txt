@@ -9,3 +9,15 @@ E:\Practice\2022\AwesomeGIC.Bank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\Awesome
 E:\Practice\2022\AwesomeGIC.Bank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\refint\AwesomeGIC.Bank.Domain.dll
 E:\Practice\2022\AwesomeGIC.Bank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.pdb
 E:\Practice\2022\AwesomeGIC.Bank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\ref\AwesomeGIC.Bank.Domain.dll
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\bin\Debug\net8.0\AwesomeGIC.Bank.Domain.deps.json
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\bin\Debug\net8.0\AwesomeGIC.Bank.Domain.dll
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\bin\Debug\net8.0\AwesomeGIC.Bank.Domain.pdb
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.AssemblyInfoInputs.cache
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.AssemblyInfo.cs
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.csproj.CoreCompileInputs.cache
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.sourcelink.json
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.dll
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\refint\AwesomeGIC.Bank.Domain.dll
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\AwesomeGIC.Bank.Domain.pdb
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Domain\obj\Debug\net8.0\ref\AwesomeGIC.Bank.Domain.dll
