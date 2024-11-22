@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AwesomeGIC.Bank.Web.Api.props" />
+</Project>

@@ -1,0 +1,11 @@
+E:\Practice\2022\DemoApplication\Demo.Domain\bin\Release\net8.0\Demo.Domain.deps.json
+E:\Practice\2022\DemoApplication\Demo.Domain\bin\Release\net8.0\Demo.Domain.dll
+E:\Practice\2022\DemoApplication\Demo.Domain\bin\Release\net8.0\Demo.Domain.pdb
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\Demo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\Demo.Domain.AssemblyInfoInputs.cache
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\Demo.Domain.AssemblyInfo.cs
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\Demo.Domain.csproj.CoreCompileInputs.cache
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\Demo.Domain.dll
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\refint\Demo.Domain.dll
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\Demo.Domain.pdb
+E:\Practice\2022\DemoApplication\Demo.Domain\obj\Release\net8.0\ref\Demo.Domain.dll
