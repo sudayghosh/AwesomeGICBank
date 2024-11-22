@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I6djaLCYDt44EJCGvo62sIy0cqTiTZRXaPdgEIHdSyU=",
+  "Source": "AwesomeGIC.Bank.Web.Api",
+  "BasePath": "_content/AwesomeGIC.Bank.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
