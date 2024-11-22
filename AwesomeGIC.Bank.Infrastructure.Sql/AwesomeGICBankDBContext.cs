@@ -20,14 +20,18 @@ namespace AwesomeGIC.Bank.Infrastructure.Sql
                 encryptedData => EncryptionHelper.EncryptedData(encryptedData),
                 decryptedData => EncryptionHelper.DecryptedData(decryptedData));
 
-            modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
+            modelBuilder.ApplyConfiguration(new AccountConfiguration());
+            modelBuilder.ApplyConfiguration(new TransactionConfiguration());
+            modelBuilder.ApplyConfiguration(new InterestRuleConfiguration());
 
-            modelBuilder.Entity<Employee>().Property(e => e.FirstName)
-                .HasConversion(converter);
+            //modelBuilder.Entity<Employee>().Property(e => e.FirstName)
+            //    .HasConversion(converter);
 
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<InterestRule> InterestRules { get; set; }
     }
 }

@@ -6,7 +6,15 @@ namespace AwesomeGIC.Bank.Application
 {
     public interface IAwesomeGICBankDBContext
     {
-        public DbSet<Employee> Employees { get; set; }
+        DbSet<AwesomeGIC.Bank.Domain.Entities.Account> Accounts { get; set; }
+
+        DbSet<Transaction> Transactions { get; set; }
+
+        DbSet<InterestRule> InterestRules { get; set; }
+
+
+        //public DbSet<Employee> Employees { get; set; }
+
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

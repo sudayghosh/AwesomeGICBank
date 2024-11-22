@@ -9,15 +9,14 @@ using System.Threading.Tasks;
 
 namespace AwesomeGIC.Bank.Infrastructure.Sql.Configurations
 {
-    public class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
+    public class AccountConfiguration : IEntityTypeConfiguration<Account>
     {
-        public void Configure(EntityTypeBuilder<Employee> builder)
+        public void Configure(EntityTypeBuilder<Account> builder)
         {
             builder.HasKey(e => e.Id);
 
-            builder.Property(e => e.FirstName).HasMaxLength(200).IsRequired();
-            builder.Property(e => e.LastName).HasMaxLength(200).IsRequired();
-            builder.Property(e => e.Gender).HasMaxLength(50).IsRequired();
+            builder.Property(e => e.AccountNo).HasMaxLength(100).IsRequired();
+            builder.Property(e => e.CreateDateTime).IsRequired();
         }
     }
 }

@@ -2,15 +2,29 @@ using AwesomeGIC.Bank.Application;
 using AwesomeGIC.Bank.Infrastructure.Sql;
 using AwesomeGIC.Bank.Web.Api.BackgroundTask;
 using AwesomeGIC.Bank.Web.Api.Middlewares;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateSlimBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+
+//builder.Services.AddMediatR(typeof(Program).GetTypeInfo().Assembly);
+//builder.Services.AddMediatR(cfg =>
+//{
+//    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+//    //cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
+//    //cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(PerformanceBehaviour<,>));
+//});
+builder.Services.AddApplicationServices();
 
 builder.Services.AddDbContext<AwesomeGICBankDBContext>(o =>
 {
