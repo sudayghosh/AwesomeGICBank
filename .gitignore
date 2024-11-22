@@ -27,7 +27,6 @@
 /AwesomeGIC.Bank.Application/obj/project.nuget.cache
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeG.43AADE70.Up2Date
-/AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.AssemblyInfo.cs
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.assets.cache
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.csproj.AssemblyReference.cache
@@ -39,7 +38,6 @@
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.pdb
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.sourcelink.json
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/Demo.App.371CD7EF.Up2Date
-/AwesomeGIC.Bank.Application/obj/Debug/net8.0/Demo.Application.AssemblyInfo.cs
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/Demo.Application.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/Demo.Application.assets.cache
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/Demo.Application.csproj.AssemblyReference.cache
@@ -56,7 +54,6 @@
 /AwesomeGIC.Bank.Application/obj/Debug/net8.0/ref/Demo.Application.dll
 /AwesomeGIC.Bank.Application/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 /AwesomeGIC.Bank.Application/obj/Release/net8.0/Demo.App.371CD7EF.Up2Date
-/AwesomeGIC.Bank.Application/obj/Release/net8.0/Demo.Application.AssemblyInfo.cs
 /AwesomeGIC.Bank.Application/obj/Release/net8.0/Demo.Application.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Application/obj/Release/net8.0/Demo.Application.assets.cache
 /AwesomeGIC.Bank.Application/obj/Release/net8.0/Demo.Application.csproj.AssemblyReference.cache
@@ -88,7 +85,6 @@
 /AwesomeGIC.Bank.Console/obj/project.nuget.cache
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/apphost.exe
-/AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.AssemblyInfo.cs
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.assets.cache
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.csproj.CoreCompileInputs.cache
@@ -99,7 +95,6 @@
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.GlobalUsings.g.cs
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.pdb
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.sourcelink.json
-/AwesomeGIC.Bank.Console/obj/Debug/net8.0/Bank.Console.AssemblyInfo.cs
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/Bank.Console.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/Bank.Console.assets.cache
 /AwesomeGIC.Bank.Console/obj/Debug/net8.0/Bank.Console.csproj.BuildWithSkipAnalyzers
@@ -142,7 +137,6 @@
 /AwesomeGIC.Bank.Domain/obj/project.assets.json
 /AwesomeGIC.Bank.Domain/obj/project.nuget.cache
 /AwesomeGIC.Bank.Domain/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
-/AwesomeGIC.Bank.Domain/obj/Release/net8.0/Demo.Domain.AssemblyInfo.cs
 /AwesomeGIC.Bank.Domain/obj/Release/net8.0/Demo.Domain.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Domain/obj/Release/net8.0/Demo.Domain.assets.cache
 /AwesomeGIC.Bank.Domain/obj/Release/net8.0/Demo.Domain.csproj.CoreCompileInputs.cache
@@ -154,7 +148,6 @@
 /AwesomeGIC.Bank.Domain/obj/Release/net8.0/refint/Demo.Domain.dll
 /AwesomeGIC.Bank.Domain/obj/Release/net8.0/ref/Demo.Domain.dll
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
-/AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.AssemblyInfo.cs
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.assets.cache
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.csproj.CoreCompileInputs.cache
@@ -164,7 +157,6 @@
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.GlobalUsings.g.cs
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.pdb
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.sourcelink.json
-/AwesomeGIC.Bank.Domain/obj/Debug/net8.0/Demo.Domain.AssemblyInfo.cs
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/Demo.Domain.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/Demo.Domain.assets.cache
 /AwesomeGIC.Bank.Domain/obj/Debug/net8.0/Demo.Domain.csproj.CoreCompileInputs.cache
@@ -211,7 +203,6 @@
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/project.nuget.cache
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Release/net8.0/Demo.Inf.C8BDA7E9.Up2Date
-/AwesomeGIC.Bank.Infrastructure.Sql/obj/Release/net8.0/Demo.Infrastructure.Sql.AssemblyInfo.cs
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Release/net8.0/Demo.Infrastructure.Sql.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Release/net8.0/Demo.Infrastructure.Sql.assets.cache
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Release/net8.0/Demo.Infrastructure.Sql.csproj.AssemblyReference.cache
@@ -227,7 +218,6 @@
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Release/net8.0/ref/Demo.Infrastructure.Sql.dll
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/AwesomeG.C6C9A38A.Up2Date
-/AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/AwesomeGIC.Bank.Infrastructure.Sql.AssemblyInfo.cs
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/AwesomeGIC.Bank.Infrastructure.Sql.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/AwesomeGIC.Bank.Infrastructure.Sql.assets.cache
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/AwesomeGIC.Bank.Infrastructure.Sql.csproj.AssemblyReference.cache
@@ -240,7 +230,6 @@
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/AwesomeGIC.Bank.Infrastructure.Sql.pdb
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/AwesomeGIC.Bank.Infrastructure.Sql.sourcelink.json
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/Demo.Inf.C8BDA7E9.Up2Date
-/AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/Demo.Infrastructure.Sql.AssemblyInfo.cs
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/Demo.Infrastructure.Sql.AssemblyInfoInputs.cache
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/Demo.Infrastructure.Sql.assets.cache
 /AwesomeGIC.Bank.Infrastructure.Sql/obj/Debug/net8.0/Demo.Infrastructure.Sql.csproj.AssemblyReference.cache
@@ -343,17 +332,12 @@
 *.vsidx
 .vs/AwesomeGIC.Bank/v17/.suo
 .vs/AwesomeGIC.Bank/v17/DocumentLayout.json
-AwesomeGIC.Bank.Application/Account/Queries/AccountDto.cs
-AwesomeGIC.Bank.Application/Account/Queries/GetAccountListByAccountNoQuery.cs
-AwesomeGIC.Bank.Application/Account/Queries/TransactionDto.cs
-AwesomeGIC.Bank.Application/AwesomeGIC.Bank.Application.csproj
 AwesomeGIC.Bank.Application/bin/Debug/net8.0/AwesomeGIC.Bank.Application.deps.json
 AwesomeGIC.Bank.Application/bin/Debug/net8.0/AwesomeGIC.Bank.Application.dll
 AwesomeGIC.Bank.Application/bin/Debug/net8.0/AwesomeGIC.Bank.Application.pdb
 AwesomeGIC.Bank.Application/bin/Debug/net8.0/AwesomeGIC.Bank.Domain.dll
 AwesomeGIC.Bank.Application/bin/Debug/net8.0/AwesomeGIC.Bank.Domain.pdb
 AwesomeGIC.Bank.Application/obj/AwesomeGIC.Bank.Application.csproj.nuget.dgspec.json
-AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.AssemblyInfo.cs
 AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.AssemblyInfoInputs.cache
 AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.assets.cache
 AwesomeGIC.Bank.Application/obj/Debug/net8.0/AwesomeGIC.Bank.Application.csproj.AssemblyReference.cache
@@ -372,7 +356,6 @@ AwesomeGIC.Bank.Console/bin/Debug/net8.0/AwesomeGIC.Bank.Console.exe
 AwesomeGIC.Bank.Console/bin/Debug/net8.0/AwesomeGIC.Bank.Console.pdb
 AwesomeGIC.Bank.Console/obj/AwesomeGIC.Bank.Console.csproj.nuget.dgspec.json
 AwesomeGIC.Bank.Console/obj/Debug/net8.0/apphost.exe
-AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.AssemblyInfo.cs
 AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.AssemblyInfoInputs.cache
 AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.assets.cache
 AwesomeGIC.Bank.Console/obj/Debug/net8.0/AwesomeGIC.Bank.Console.csproj.FileListAbsolute.txt
@@ -387,7 +370,6 @@ AwesomeGIC.Bank.Console/obj/project.nuget.cache
 AwesomeGIC.Bank.Domain/bin/Debug/net8.0/AwesomeGIC.Bank.Domain.dll
 AwesomeGIC.Bank.Domain/bin/Debug/net8.0/AwesomeGIC.Bank.Domain.pdb
 AwesomeGIC.Bank.Domain/obj/AwesomeGIC.Bank.Domain.csproj.nuget.dgspec.json
-AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.AssemblyInfo.cs
 AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.AssemblyInfoInputs.cache
 AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.assets.cache
 AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.csproj.CoreCompileInputs.cache
@@ -416,7 +398,6 @@ AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/AwesomeGIC.Bank.Web.Api.assets.cache
 AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/AwesomeGIC.Bank.Web.Api.AssemblyInfoInputs.cache
 AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/apphost.exe
 AwesomeGIC.Bank.Web.Api/obj/AwesomeGIC.Bank.Web.Api.csproj.nuget.dgspec.json
-AwesomeGIC.Bank.Web.Api/Controllers/WeatherForecastController.cs
 AwesomeGIC.Bank.Web.Api/bin/Debug/net8.0/AwesomeGIC.Bank.Web.Api.pdb
 AwesomeGIC.Bank.Web.Api/bin/Debug/net8.0/AwesomeGIC.Bank.Web.Api.exe
 .vs/AwesomeGIC.Bank/FileContentIndex/0c96573a-5a6a-4174-8fd7-3a62c5fbc55c.vsidx
