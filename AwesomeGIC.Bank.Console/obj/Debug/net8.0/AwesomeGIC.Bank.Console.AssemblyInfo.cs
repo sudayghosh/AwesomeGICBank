@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AwesomeGIC.Bank.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9203e16f5890613885b2e229ce7fea4a027824d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2bbe47dfc2a2731a04a883c16ed3656e5f3c322")]
 [assembly: System.Reflection.AssemblyProductAttribute("AwesomeGIC.Bank.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AwesomeGIC.Bank.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
