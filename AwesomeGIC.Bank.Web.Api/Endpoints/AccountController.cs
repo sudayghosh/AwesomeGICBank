@@ -40,5 +40,20 @@ namespace AwesomeGIC.Bank.Web.Api.Endpoints
             }, cancellationToken);
             return Ok(result);
         }
+
+
+        //[ApiKey]
+        [HttpPost("transactions")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesDefaultResponseType]
+        public async Task<AccountRespDto> GetTransactionsByAccountNo([FromBody] AccountTransactionReqDto dto
+            , CancellationToken cancellationToken)
+        {
+            var result = await _sender.Send(new GetTransactionsStatementQuery()
+            {
+                Dto = dto
+            }, cancellationToken);
+            return result;
+        }
     }
 }

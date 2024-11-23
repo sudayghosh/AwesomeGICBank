@@ -12,7 +12,7 @@ namespace AwesomeGIC.Bank.UI.Dto
         public string AccountNo { get; set; }
 
         [Required(ErrorMessage = "Date is required.")]
-        [RegularExpression(@"^\d{4}(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])$", ErrorMessage = "Date must be in YYYYMMdd format.")]
+        [RegularExpression(@"^\d{4}(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])$", ErrorMessage = "Date must be in YYYYMMdd format eg. 20240605.")]
         public string TxnDate { get; set; }
 
         [RegularExpression("^(W|D)$", ErrorMessage = "Transaction type must be either 'W' or 'D'.")]

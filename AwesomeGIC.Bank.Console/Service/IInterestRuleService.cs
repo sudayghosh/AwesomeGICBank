@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace AwesomeGIC.Bank.UI.Service
 {
-    public interface IAccountService
+    public interface IInterestRuleService
     {
-        Task<AccountRespDto> UpsertAccount(AccountReqDto reqDto);
-
-        Task<AccountRespDto?> GetAccountStatement(AccountStatementReqDto reqDto);
+        Task<InterestRuleRespDto?> UpsertInterestRule(InterestRuleReqDto reqDto);
     }
 }

@@ -5,6 +5,7 @@ using AwesomeGIC.Bank.Application.Rule.Queries;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Globalization;
 
 namespace AwesomeGIC.Bank.Application.Rule.Commands
 {
@@ -30,8 +31,9 @@ namespace AwesomeGIC.Bank.Application.Rule.Commands
             {
                 try
                 {
+                    DateTime dt = DateTime.ParseExact(request.Dto.DateTime, "yyyyMMdd", CultureInfo.InvariantCulture);
                     var rule = await _context.InterestRules
-                        .FirstOrDefaultAsync(a => a.RuleId == request.Dto.RuleId, cancellationToken);
+                        .FirstOrDefaultAsync(a => a.DateTime == dt, cancellationToken);
                     bool addingNew = rule != null;
                     if (rule != null)
                     {

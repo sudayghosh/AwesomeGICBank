@@ -34,9 +34,12 @@ namespace AwesomeGIC.Bank.Application.Account.Queries
                     var dto = new AccountRespDto();
                     _mapper.Map(account, dto);
 
-                    foreach (var transaction in dto.Transactions)
+                    if (dto.Transactions != null)
                     {
-                        transaction.TxnDate = DateTime.SpecifyKind(transaction.TxnDate, DateTimeKind.Utc);
+                        foreach (var transaction in dto.Transactions)
+                        {
+                            transaction.TxnDate = DateTime.SpecifyKind(transaction.TxnDate, DateTimeKind.Utc);
+                        }
                     }
                     return dto;
                 }

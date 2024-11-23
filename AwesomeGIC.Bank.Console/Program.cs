@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         var serviceCollection = new ServiceCollection();
         ConfigureServices(serviceCollection);
@@ -26,7 +26,7 @@ class Program
         var isContinue = true;
         do
         {
-            userInputManager.DoProcess(inp);
+            await userInputManager.DoProcess(inp);
             if (isContinue)
             {
                 inp = Console.ReadLine();
@@ -47,6 +47,7 @@ class Program
         // Register services and classes
         services.AddSingleton<IRestClient, RestClient>();
         services.AddScoped<IAccountService, AccountService>();
+        services.AddScoped<IInterestRuleService, InterestRuleService>();
         services.AddTransient<UserInputManager>();
 
 

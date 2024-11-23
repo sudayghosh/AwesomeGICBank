@@ -8,10 +8,17 @@ namespace AwesomeGIC.Bank.UI.Dto
 {
     public class InterestRuleRespDto
     {
-        public string AccountNo { get; set; }
-
-        public IEnumerable<TransactionDto> Transactions { get; set; }
-
         public ErrorResponse? ErrorResponse { get; set; }
+
+        public List<InterestRuleDetailsRespDto> Rules { get; set; }
+    }
+
+    public class InterestRuleDetailsRespDto
+    {
+        public string RuleId { get; set; }
+
+        public DateTime DateTime { get; set; }
+
+        public decimal Rate { get; set; }
     }
 }

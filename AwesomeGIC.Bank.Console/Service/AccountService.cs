@@ -18,23 +18,56 @@ namespace AwesomeGIC.Bank.UI.Service
         public AccountService(IConfiguration configuration)
         {
             _apiUrl = configuration.GetValue<string>("ApiUrl");
+
+            //var options = new RestClientOptions(_apiUrl)
+            //{
+            //    ThrowOnAnyError = true
+            //};
             _restClient = new RestClient(_apiUrl);
         }
 
         public async Task<AccountRespDto?> UpsertAccount(AccountReqDto reqDto)
         {
+            AccountRespDto? account = null;
             var request = new RestRequest("account/", Method.Post);
             request.AddHeader("Cache-Control", "no-cache");
             request.AddHeader("Content-Type", "application/json; charset=utf-8");
             request.AddBody(reqDto);
             var response = await _restClient.ExecutePostAsync(request);
-            if (response.StatusCode == System.Net.HttpStatusCode.OK 
-                && !string.IsNullOrEmpty(response?.Content))
+            if (!response.IsSuccessful)
             {
-                var account = JsonConvert.DeserializeObject<AccountRespDto>(response?.Content);
-                return account;
+                account = new()
+                {
+                    ErrorResponse = JsonConvert.DeserializeObject<ErrorResponse>(response?.Content)
+                };
             }
-            return null;
+            else if (response.IsSuccessful && !string.IsNullOrEmpty(response?.Content))
+            {
+                account = JsonConvert.DeserializeObject<AccountRespDto>(response?.Content);
+            }
+            return account;
+        }
+
+        public async Task<AccountRespDto?> GetAccountStatement(AccountStatementReqDto reqDto)
+        {
+            AccountRespDto? account = null;
+            var request = new RestRequest("account/transactions", Method.Post);
+            request.AddHeader("Cache-Control", "no-cache");
+            request.AddHeader("Content-Type", "application/json; charset=utf-8");
+            request.AddBody(reqDto);
+            var response = await _restClient.ExecutePostAsync(request);
+            if (!response.IsSuccessful)
+            {
+                account = new()
+                {
+                    ErrorResponse = JsonConvert.DeserializeObject<ErrorResponse>(response?.Content)
+                };
+            }
+            else if (response.IsSuccessful && !string.IsNullOrEmpty(response?.Content))
+            {
+                account = JsonConvert.DeserializeObject<AccountRespDto>(response?.Content);
+            }
+            return account;
         }
     }
 }
