@@ -287,3 +287,4 @@ E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Web.Api\obj\Debug\net8.0\ref\Awe
 E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Web.Api\bin\Debug\net8.0\MediatR.dll
 E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Web.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Web.Api\bin\Debug\net8.0\AutoMapper.dll
+E:\Practice\2022\AwesomeGICBank\AwesomeGIC.Bank.Web.Api\obj\Debug\net8.0\AwesomeGIC.Bank.Web.Api.MvcApplicationPartsAssemblyInfo.cs

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AwesomeGIC.Bank.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b78109d3942f8dd297d77779057872d4878d4bed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f822840f55a2d75ed0fedc95919df5d365da34e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AwesomeGIC.Bank.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AwesomeGIC.Bank.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

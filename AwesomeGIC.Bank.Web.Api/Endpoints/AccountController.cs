@@ -16,14 +16,20 @@ namespace AwesomeGIC.Bank.Web.Api.Endpoints
         {            
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="accountReqDto"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
         //[ApiKey]
         [HttpPost()]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesDefaultResponseType]
-        public async Task<AccountRespDto> AccountListByAccountNo([FromBody] AccountReqDto accountReqDto
+        public async Task<AccountRespDto> UpsertAccount([FromBody] AccountReqDto accountReqDto
             , CancellationToken cancellationToken)
         {
-            var result = await _sender.Send(new CreateAccountCommand()
+            var result = await _sender.Send(new UpsertAccountCommand()
             {
                 Dto = accountReqDto
             }, cancellationToken);
