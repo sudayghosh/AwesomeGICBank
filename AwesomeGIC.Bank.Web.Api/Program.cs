@@ -1,4 +1,5 @@
 using AwesomeGIC.Bank.Application;
+using AwesomeGIC.Bank.Application.Common;
 using AwesomeGIC.Bank.Infrastructure.Sql;
 using AwesomeGIC.Bank.Web.Api.BackgroundTask;
 using AwesomeGIC.Bank.Web.Api.Middlewares;
@@ -67,6 +68,8 @@ if (app.Environment.IsDevelopment())
 app.UseRateLimiter();
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
 

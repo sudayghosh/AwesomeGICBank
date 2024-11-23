@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.Internal;
 using AwesomeGIC.Bank.Application.Account.Queries;
 using AwesomeGIC.Bank.Application.Common;
 using AwesomeGIC.Bank.Domain.Entities;
@@ -41,6 +42,9 @@ namespace AwesomeGIC.Bank.Application.Account.Commands
                     }
                     else
                     {
+                        if (nameof(TransactionType.W).Equals(request.Dto.Type, StringComparison.OrdinalIgnoreCase))
+                            throw new InvalidOperationException("The first transaction on an account should not be a withdrawal");
+
                         account = new Domain.Entities.Account();
                         _mapper.Map(request.Dto, account);
 
@@ -56,11 +60,10 @@ namespace AwesomeGIC.Bank.Application.Account.Commands
                         AccountNo = request.Dto.AccountNo
                     }, cancellationToken);
                     return result;
-
                 }
                 catch (Exception ex)
                 {
-                    throw;
+                    throw ex;
                 }
             }
 
