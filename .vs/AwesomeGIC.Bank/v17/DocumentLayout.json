@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\Practice\\2022\\AwesomeGICBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Queries\\AccountDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AwesomeGIC.Bank.Application\\Account\\Queries\\AccountDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\account\\queries\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\account\\queries\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\account\\queries\\accountrespdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\account\\queries\\accountrespdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\account\\commands\\accountreqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\account\\commands\\accountreqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\common\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\common\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD304A0E-5108-48F1-AA69-2B45E450B4C2}|AwesomeGIC.Bank.Infrastructure.Sql\\AwesomeGIC.Bank.Infrastructure.Sql.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.infrastructure.sql\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "AccountRespDto.cs",
+              "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Queries\\AccountRespDto.cs",
+              "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Account\\Queries\\AccountRespDto.cs",
+              "ToolTip": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Queries\\AccountRespDto.cs",
+              "RelativeToolTip": "AwesomeGIC.Bank.Application\\Account\\Queries\\AccountRespDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:00:19.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountReqDto.cs",
+              "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Commands\\AccountReqDto.cs",
+              "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Account\\Commands\\AccountReqDto.cs",
+              "ToolTip": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Commands\\AccountReqDto.cs",
+              "RelativeToolTip": "AwesomeGIC.Bank.Application\\Account\\Commands\\AccountReqDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:00:14.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionType.cs",
+              "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Common\\TransactionType.cs",
+              "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Common\\TransactionType.cs",
+              "ToolTip": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Common\\TransactionType.cs",
+              "RelativeToolTip": "AwesomeGIC.Bank.Application\\Common\\TransactionType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:59:20.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TransactionDto.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Queries\\TransactionDto.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Account\\Queries\\TransactionDto.cs",
@@ -45,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GetAccountListByAccountNoQuery.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Queries\\GetAccountListByAccountNoQuery.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Account\\Queries\\GetAccountListByAccountNoQuery.cs",
@@ -68,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Infrastructure.Sql\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Infrastructure.Sql\\AutoMapperProfile.cs",
@@ -81,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Web.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Web.Api\\Properties\\launchSettings.json",

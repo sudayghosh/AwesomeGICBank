@@ -12,4 +12,5 @@ namespace AwesomeGIC.Bank.Application.Common
         W = 2,
         I = 3,
     }
+
 }
