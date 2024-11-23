@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Practice\\2022\\AwesomeGICBank\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\account\\commands\\upsertaccountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\account\\commands\\upsertaccountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4440C67E-F554-4584-B04B-08B37D6CCBB4}|AwesomeGIC.Bank.Web.Api\\AwesomeGIC.Bank.Web.Api.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.web.api\\endpoints\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4440C67E-F554-4584-B04B-08B37D6CCBB4}|AwesomeGIC.Bank.Web.Api\\AwesomeGIC.Bank.Web.Api.csproj|solutionrelative:awesomegic.bank.web.api\\endpoints\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\rule\\commands\\upsertrulecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\rule\\commands\\upsertrulecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\account\\queries\\getaccountlistbyaccountnoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\account\\queries\\getaccountlistbyaccountnoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.application\\account\\commands\\upsertaccountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B4152FE-208F-4180-BD34-42AE376ECC7A}|AwesomeGIC.Bank.Application\\AwesomeGIC.Bank.Application.csproj|solutionrelative:awesomegic.bank.application\\account\\commands\\upsertaccountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4440C67E-F554-4584-B04B-08B37D6CCBB4}|AwesomeGIC.Bank.Web.Api\\AwesomeGIC.Bank.Web.Api.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.web.api\\endpoints\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4440C67E-F554-4584-B04B-08B37D6CCBB4}|AwesomeGIC.Bank.Web.Api\\AwesomeGIC.Bank.Web.Api.csproj|solutionrelative:awesomegic.bank.web.api\\endpoints\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4440C67E-F554-4584-B04B-08B37D6CCBB4}|AwesomeGIC.Bank.Web.Api\\AwesomeGIC.Bank.Web.Api.csproj|e:\\practice\\2022\\awesomegicbank\\awesomegic.bank.web.api\\endpoints\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GetAccountListByAccountNoQuery.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Queries\\GetAccountListByAccountNoQuery.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Account\\Queries\\GetAccountListByAccountNoQuery.cs",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "AwesomeGIC.Bank.Application\\Account\\Queries\\GetAccountListByAccountNoQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T05:21:56.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T05:21:56.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UpsertAccountCommand.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Account\\Commands\\UpsertAccountCommand.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Account\\Commands\\UpsertAccountCommand.cs",
@@ -68,26 +67,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UpsertRuleCommand.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Rule\\Commands\\UpsertRuleCommand.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Application\\Rule\\Commands\\UpsertRuleCommand.cs",
               "ToolTip": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Application\\Rule\\Commands\\UpsertRuleCommand.cs",
               "RelativeToolTip": "AwesomeGIC.Bank.Application\\Rule\\Commands\\UpsertRuleCommand.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAA3AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wCoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T05:14:34.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Web.Api\\Endpoints\\AccountController.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Web.Api\\Endpoints\\AccountController.cs",
               "ToolTip": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Web.Api\\Endpoints\\AccountController.cs",
               "RelativeToolTip": "AwesomeGIC.Bank.Web.Api\\Endpoints\\AccountController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCIAAAAiAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwB8AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T05:12:31.73Z",
               "EditorCaption": ""
@@ -102,12 +101,11 @@
               "RelativeToolTip": "AwesomeGIC.Bank.Web.Api\\Endpoints\\TransactionController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T05:12:12.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T05:12:12.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RuleController.cs",
               "DocumentMoniker": "E:\\Practice\\2022\\AwesomeGICBank\\AwesomeGIC.Bank.Web.Api\\Endpoints\\RuleController.cs",
               "RelativeDocumentMoniker": "AwesomeGIC.Bank.Web.Api\\Endpoints\\RuleController.cs",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "AwesomeGIC.Bank.Web.Api\\Endpoints\\RuleController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAQwCoAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T05:10:28.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T05:10:28.108Z"
             },
             {
               "$type": "Document",
@@ -128,8 +125,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AQIAAJUBAAAAAAAAAAAAABsAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-23T05:09:26.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T05:09:26.103Z"
             }
           ]
         }

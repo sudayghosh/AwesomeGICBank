@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AwesomeGIC.Bank.Infrastructure.Sql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f822840f55a2d75ed0fedc95919df5d365da34e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3c112d43a8f672918ba3659b0c1ee221a00e0d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AwesomeGIC.Bank.Infrastructure.Sql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AwesomeGIC.Bank.Infrastructure.Sql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
