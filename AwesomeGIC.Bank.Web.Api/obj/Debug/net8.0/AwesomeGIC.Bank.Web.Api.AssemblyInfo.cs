@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AwesomeGIC.Bank.Web.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19a2e6239d5cc7939dd9ba0266073605e8e0bc21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b78109d3942f8dd297d77779057872d4878d4bed")]
 [assembly: System.Reflection.AssemblyProductAttribute("AwesomeGIC.Bank.Web.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AwesomeGIC.Bank.Web.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
