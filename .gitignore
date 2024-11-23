@@ -416,3 +416,17 @@ AwesomeGIC.Bank.Domain/obj/Debug/net8.0/AwesomeGIC.Bank.Domain.pdb
 *.pdb
 *.cache
 *.exe
+.vs/AwesomeGIC.Bank/v17/.suo
+.vs/AwesomeGIC.Bank/v17/DocumentLayout.json
+AwesomeGIC.Bank.Console/bin/Debug/net8.0/appsettings.json
+AwesomeGIC.Bank.Console/bin/Debug/net8.0/AwesomeGIC.Bank.UI.deps.json
+AwesomeGIC.Bank.Console/bin/Debug/net8.0/AwesomeGIC.Bank.UI.runtimeconfig.json
+AwesomeGIC.Bank.Web.Api/obj/AwesomeGIC.Bank.Web.Api.csproj.nuget.g.props
+AwesomeGIC.Bank.Web.Api/obj/AwesomeGIC.Bank.Web.Api.csproj.nuget.g.targets
+AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/AwesomeG.C7AE81AA.Up2Date
+AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/staticwebassets.build.json
+AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.AwesomeGIC.Bank.Web.Api.props
+AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AwesomeGIC.Bank.Web.Api.props
+AwesomeGIC.Bank.Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AwesomeGIC.Bank.Web.Api.props
+.vs/AwesomeGIC.Bank/v17/.suo
+.vs/AwesomeGIC.Bank/v17/DocumentLayout.json
