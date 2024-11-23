@@ -1,14 +1,9 @@
 using AwesomeGIC.Bank.Application;
-using AwesomeGIC.Bank.Application.Common;
 using AwesomeGIC.Bank.Infrastructure.Sql;
 using AwesomeGIC.Bank.Web.Api.BackgroundTask;
 using AwesomeGIC.Bank.Web.Api.Middlewares;
-using MediatR;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection;
 
 var builder = WebApplication.CreateSlimBuilder(args);
 
