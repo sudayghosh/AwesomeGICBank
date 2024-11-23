@@ -1,21 +1,54 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Bank.Console;
+using System;
+using Microsoft.Extensions.DependencyInjection;
+using AwesomeGIC.Bank.UI.Service;
+using RestSharp;
+using Microsoft.Extensions.Configuration;
 
-System.Console.WriteLine("Welcome to AwesomeGIC Bank! What would you like to do?");
-
-UserInputManager userInputManager = new();
-userInputManager.ShowPrimaryQuestions();
-
-string? inp = Console.ReadLine();
-if (userInputManager.IsQuit(inp)) return;
-var isContinue = true;
-do
+class Program
 {
-    userInputManager.DoProcess(inp);
-    if (isContinue)
+    static void Main(string[] args)
     {
-        inp = Console.ReadLine();
-        if (userInputManager.IsQuit(inp)) isContinue = false;
+        var serviceCollection = new ServiceCollection();
+        ConfigureServices(serviceCollection);
+
+        var serviceProvider = serviceCollection.BuildServiceProvider();
+
+        var userInputManager = serviceProvider.GetRequiredService<UserInputManager>();
+
+        System.Console.WriteLine("Welcome to AwesomeGIC Bank! What would you like to do?");
+        userInputManager.ShowPrimaryQuestions();
+
+        string? inp = Console.ReadLine();
+        if (userInputManager.IsQuit(inp)) return;
+        var isContinue = true;
+        do
+        {
+            userInputManager.DoProcess(inp);
+            if (isContinue)
+            {
+                inp = Console.ReadLine();
+                if (userInputManager.IsQuit(inp)) isContinue = false;
+            }
+        } while (isContinue);
     }
-} while(isContinue);
+
+    private static void ConfigureServices(IServiceCollection services)
+    {
+        services.AddTransient<IConfiguration>(sp =>
+        {
+            IConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
+            configurationBuilder.AddJsonFile("appsettings.json");
+            return configurationBuilder.Build();
+        });
+
+        // Register services and classes
+        services.AddSingleton<IRestClient, RestClient>();
+        services.AddScoped<IAccountService, AccountService>();
+        services.AddTransient<UserInputManager>();
+
+
+    }
+}

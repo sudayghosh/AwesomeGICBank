@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeGIC.Bank.Console", "AwesomeGIC.Bank.Console\AwesomeGIC.Bank.Console.csproj", "{AD0C7297-9C66-4EF3-A164-8B0107958540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeGIC.Bank.UI", "AwesomeGIC.Bank.Console\AwesomeGIC.Bank.UI.csproj", "{AD0C7297-9C66-4EF3-A164-8B0107958540}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeGIC.Bank.Application", "AwesomeGIC.Bank.Application\AwesomeGIC.Bank.Application.csproj", "{0B4152FE-208F-4180-BD34-42AE376ECC7A}"
 EndProject

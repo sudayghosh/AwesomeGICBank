@@ -28,6 +28,7 @@ namespace AwesomeGIC.Bank.Application.Account.Queries
                     var account = await _context.Accounts.AsNoTracking()
                         .Include(e => e.Transactions)
                         .Where(w => w.AccountNo == request.AccountNo)
+                        .OrderBy(w => w.CreateDateTime)
                         .FirstOrDefaultAsync(cancellationToken);
 
                     var dto = new AccountRespDto();
