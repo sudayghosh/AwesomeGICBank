@@ -15,5 +15,7 @@ namespace AwesomeGIC.Bank.Application.Account.Queries
         public string Type { get; set; }
 
         public decimal Amount { get; set; }
+
+        public decimal Balance { get; set; }
     }
 }

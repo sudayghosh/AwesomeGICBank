@@ -80,6 +80,12 @@ namespace AwesomeGIC.Bank.Infrastructure.Sql.Migrations
                         .HasPrecision(12, 6)
                         .HasColumnType("decimal(12,6)");
 
+                    b.Property<decimal>("Balance")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("CreateDateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("TxnDate")
                         .HasColumnType("datetime2");
 

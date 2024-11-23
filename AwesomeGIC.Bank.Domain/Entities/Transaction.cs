@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AwesomeGIC.Bank.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace AwesomeGIC.Bank.Domain.Entities
 {
-    public class Transaction
+    public class Transaction : KeyedEntity
     {
-        public Guid Id { get; set; }
-
         public string TxnId { get; set; }
 
         public DateTime TxnDate { get; set; }
@@ -17,6 +16,8 @@ namespace AwesomeGIC.Bank.Domain.Entities
         public string Type { get; set; }
 
         public decimal Amount { get; set; }
+
+        public decimal Balance { get; set; }
 
         public Account Account { get; set; }
     }
