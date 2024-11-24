@@ -54,6 +54,9 @@ namespace Bank.Console
                     ProcessStatement();
                     break;
                 default:
+                    System.Console.BackgroundColor = ConsoleColor.DarkYellow;
+                    System.Console.WriteLine("Please enter vaid input... Try again...");
+                    System.Console.BackgroundColor = ConsoleColor.Black;
                     break;
             }
             return true;

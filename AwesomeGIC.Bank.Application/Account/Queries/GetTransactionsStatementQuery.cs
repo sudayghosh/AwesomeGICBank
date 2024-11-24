@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
 using AwesomeGIC.Bank.Application.Account.Commands;
 using AwesomeGIC.Bank.Application.Common;
-using AwesomeGIC.Bank.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Globalization;
 
 namespace AwesomeGIC.Bank.Application.Account.Queries
@@ -38,17 +36,37 @@ namespace AwesomeGIC.Bank.Application.Account.Queries
                     .ToListAsync();
 
                 decimal interest = 0m;
-                foreach (var transaction in transactions)
+                var noOfDays = 1;
+                for (int i = 0; i < endDt.Day; i++)
                 {
-                    var interestRule = interestRules.Where(w => w.DateTime <= transaction.TxnDate).FirstOrDefault();
+                    var txnDate = new DateTime(startDt.Year, startDt.Month, i + 1);
+                    var interestRule = interestRules.Where(w => w.DateTime <= txnDate).LastOrDefault();
+
+                    var trans = transactions
+                        .Where(w => w.TxnDate == txnDate).ToList();
+                        //.GroupBy(s => s.TxnDate)
+                        //.Select(s => new { TxnDate = s.Key, balSum = s.Sum(m => m.Balance) }).FirstOrDefault();
+
+                    if (trans.Count == 0) noOfDays = noOfDays + 1;
+                    else if (interestRule != null)
+                    {
+                        interest += trans.Last().Balance * (interestRule.Rate / 100) * noOfDays;
+                        noOfDays = 1;
+                    }
+                }
+
+                if (noOfDays > 1)
+                {
+                    var interestRule = interestRules.Where(w => w.DateTime <= endDt).LastOrDefault();
                     if (interestRule != null)
                     {
-                        interest += transaction.Balance * (interestRule.Rate / 100);
+                        interest += transactions.Last().Balance * (interestRule.Rate / 100) * noOfDays;
+                        noOfDays = 1;
                     }
                 }
                 interest /= 365;
 
-                var lastBal = transactions.OrderByDescending(o => o.TxnDate).First().Balance + interest;
+                var lastBal = transactions.Last().Balance + interest;
                 transactions.Add(new TransactionDto
                 {
                     Type = nameof(TransactionType.I),

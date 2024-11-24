@@ -1,13 +1,16 @@
-﻿using AwesomeGIC.Bank.Application.Account.Commands;
-using AwesomeGIC.Bank.Application.Account.Queries;
-using AwesomeGIC.Bank.Application.Rule.Commands;
+﻿using AwesomeGIC.Bank.Application.Rule.Commands;
 using AwesomeGIC.Bank.Application.Rule.Queries;
+using AwesomeGIC.Bank.Infrastructure.Filters;
 using AwesomeGIC.Bank.Web.Api.Common;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AwesomeGIC.Bank.Web.Api.Endpoints
 {
+    /// <summary>
+    /// The inerest rule api which are providing upsert interest rule and interest rules
+    /// </summary>
+    [ApiKey]
     [Route("interestrule")]
     public class InterestRuleController : BaseController
     {
@@ -15,7 +18,11 @@ namespace AwesomeGIC.Bank.Web.Api.Endpoints
         {
         }
 
-        //[ApiKey]
+        /// <summary>
+        /// Displaying all interest rules
+        /// </summary>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
         [HttpGet("list")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesDefaultResponseType]
@@ -28,7 +35,7 @@ namespace AwesomeGIC.Bank.Web.Api.Endpoints
         }
 
         /// <summary>
-        /// 
+        /// Upsert Interest Rules
         /// </summary>
         /// <param name="accountReqDto"></param>
         /// <param name="cancellationToken"></param>

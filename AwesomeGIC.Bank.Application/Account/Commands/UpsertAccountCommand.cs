@@ -92,6 +92,10 @@ namespace AwesomeGIC.Bank.Application.Account.Commands
                     else if (trans.Type == TransactionType.W.ToString())
                     {
                         trans.Balance = account.Transactions.FirstOrDefault().Balance - trans.Amount;
+                        if (trans.Balance < 0)
+                        {
+                            throw new InvalidOperationException("Balance is low.");
+                        }
                     }
                 }
                 await Task.CompletedTask;

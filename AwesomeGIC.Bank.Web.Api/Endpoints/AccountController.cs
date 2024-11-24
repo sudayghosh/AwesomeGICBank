@@ -1,5 +1,6 @@
 ﻿using AwesomeGIC.Bank.Application.Account.Commands;
 using AwesomeGIC.Bank.Application.Account.Queries;
+using AwesomeGIC.Bank.Infrastructure.Filters;
 using AwesomeGIC.Bank.Web.Api.Common;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -7,8 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace AwesomeGIC.Bank.Web.Api.Endpoints
 {
     /// <summary>
-    /// 
+    /// The account api which are providing upsert account and transactions by account no
     /// </summary>
+    [ApiKey]
     [Route("account")]
     public class AccountController : BaseController
     {
@@ -17,12 +19,11 @@ namespace AwesomeGIC.Bank.Web.Api.Endpoints
         }
 
         /// <summary>
-        /// 
+        /// Upsert account api
         /// </summary>
         /// <param name="accountReqDto"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        //[ApiKey]
         [HttpPost()]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesDefaultResponseType]
@@ -41,8 +42,12 @@ namespace AwesomeGIC.Bank.Web.Api.Endpoints
             return Ok(result);
         }
 
-
-        //[ApiKey]
+        /// <summary>
+        /// Transactions details by account no
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
         [HttpPost("transactions")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesDefaultResponseType]

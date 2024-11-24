@@ -1,12 +1,9 @@
 ﻿using AwesomeGIC.Bank.UI.Dto;
+using AwesomeGIC.Bank.UI.Utilities;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using RestSharp;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AwesomeGIC.Bank.UI.Service
 {
@@ -32,6 +29,7 @@ namespace AwesomeGIC.Bank.UI.Service
             var request = new RestRequest("account/", Method.Post);
             request.AddHeader("Cache-Control", "no-cache");
             request.AddHeader("Content-Type", "application/json; charset=utf-8");
+            request.AddHeader("ApiKey", Helper.API_KEY);
             request.AddBody(reqDto);
             var response = await _restClient.ExecutePostAsync(request);
             if (!response.IsSuccessful)
@@ -54,6 +52,7 @@ namespace AwesomeGIC.Bank.UI.Service
             var request = new RestRequest("account/transactions", Method.Post);
             request.AddHeader("Cache-Control", "no-cache");
             request.AddHeader("Content-Type", "application/json; charset=utf-8");
+            request.AddHeader("ApiKey", Helper.API_KEY);
             request.AddBody(reqDto);
             var response = await _restClient.ExecutePostAsync(request);
             if (!response.IsSuccessful)

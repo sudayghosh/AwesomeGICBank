@@ -1,6 +1,5 @@
 using AwesomeGIC.Bank.Application;
 using AwesomeGIC.Bank.Infrastructure.Sql;
-using AwesomeGIC.Bank.Web.Api.BackgroundTask;
 using AwesomeGIC.Bank.Web.Api.Middlewares;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
@@ -48,7 +47,7 @@ builder.Services.Configure<HostOptions>(o =>
     o.ServicesStopConcurrently = true;
 });
 
-builder.Services.AddHostedService<PeriodicBackgroundTask>();
+//builder.Services.AddHostedService<PeriodicBackgroundTask>();
 
 builder.Services.AddHealthChecks().AddCheck<CustomHealthCheck>("custom_health_check");
 
