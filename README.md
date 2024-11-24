@@ -13,3 +13,4 @@
 - Now run database migration by update-database command from Package Manager console, Visual Studio
 - Start (F5) web api project (AwesomeGIC.Bank.Web.Api) and
 - Then run AwesomeGIC.Bank.UI project
+- Api swagger Url - http://localhost:5291/swagger/index.html
