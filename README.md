@@ -6,6 +6,8 @@
 - Model First approach
 - RestSharp package to call api
 - Database SQL Server
+- SOLID principles
+- Design Patterns
 
 ## Instructions, how to run projects
 - First make sure, you have installed SQL Server in your PC
