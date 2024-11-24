@@ -1,10 +1,11 @@
-## Used Domain Driven Architecture and Clean Architecture
-## Used CQRS Pattern
-## Used MediatR package
-## Used AutoMapper for mapping
-## Used Model First approach
-## Used RestSharp package to call api
-## Database used SQL Server
+## The following architecture, patterns and packages are used -
+- Domain Driven Architecture (DD) and Clean Architecture
+- CQRS Pattern
+- MediatR package
+- AutoMapper for mapping
+- Model First approach
+- RestSharp package to call api
+- Database used SQL Server
 
 ## Instructions, how to run projects
 - First make sure, you have installed SQL Server in your PC
